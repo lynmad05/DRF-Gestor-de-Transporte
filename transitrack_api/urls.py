@@ -23,4 +23,5 @@ router.register(r'rutas', RutaViewSet)
 
 urlpatterns = [
     path('api/', include(router.urls)),
+     path('api/', include('transitrack.urls')),
 ]
